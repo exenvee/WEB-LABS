@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="registration-form">
+        <h1>MAXIM REGISTRATION</h1>
+        <form action="https://webhook.site" method="post">
+            <label for="Name">Name:<sups style="color: red;">*</sup></label>
+            <br>
+            <input type="text" name="Name" id="Name" required>
+            <br>
+            <label for="SurName">SurName:<sups style="color: red;">*</sup></label>
+            <br>
+            <input type="text" name="SurName" id="Surname" required>
+            <br>
+            <label for="email">Email:<sups style="color: red;">*</sup></label>
+            <br>
+            <input type="email" name=email id="email" required>
+            <br>
+            <label for="password">Pass:<sups style="color: red;">*</sup></label>
+            <br>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <label for="C_pass">Confirm password:<sups style="color: red;">*</sup></label>
+            <br>
+            <input type="C_pass" name="C_pass" id="C_pass" required>
+            <br><br>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <button>Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
